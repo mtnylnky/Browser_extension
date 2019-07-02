@@ -1,0 +1,72 @@
+html, body {
+    width: 340px;
+}
+
+textarea{
+	width: 280px;
+	height: 80px;
+	resize: none;
+	border-radius: 5px;
+	padding: 6px;
+}
+
+#button-area{
+    display: inline-block;
+    float: left;
+}
+
+hr{
+	width: 280px;
+	float: left;
+}
+
+#save_button{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin:5px;
+	background: #B9DFFF;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	text-shadow:none;
+}
+#save_button:hover{
+	background: #016ABC;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow:none;
+}
+
+#savedfile h1{
+	font-size: 13px;
+}
+
+#savedfile p{
+	font-size: 10px;
+}
+
+#savedfile button{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin:5px;
+	background: #B9DFFF;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	text-shadow:none;
+}
+
+#savedfile button:hover{
+	background: #016ABC;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow:none;
+}

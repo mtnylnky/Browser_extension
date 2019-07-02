@@ -1,0 +1,23 @@
+{
+  "description": "Save nots on browser",
+  "manifest_version": 2,
+  "name": "Browser Rememb",
+  "version": "1.0",
+  "author": "Metin Yalçınkaya",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/notepad-16.png",
+      "24": "icons/notepad-24.png",
+      "32": "icons/notepad-32.png",
+      "64": "icons/notepad-64.png"
+    },
+    "default_popup":"index.html"
+  }
+}
